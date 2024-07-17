@@ -8,6 +8,44 @@ public class Alumno {
     int id;
     String nombre;
     String apellido;
+
+    //Se creo un constructor vacio
+    public Alumno() {
+    }
+
+    //Se creo un constructor que recibe parametros
+    public Alumno(int id, String nombre, String apellido) {
+        this.id = id;
+        this.nombre = nombre;
+        this.apellido = apellido;
+    }
+    
+    //Getters and setters se colocan antes de los metodos o despues de un constructor
+    // get:Traer.obetenemos datos o verlos   set:Colocar.modificar   
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+    
     
     
     //Creamos un metodo
