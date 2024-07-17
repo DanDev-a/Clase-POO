@@ -1,13 +1,27 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+//Molde para un alumno
+
 package Logica;
 
-/**
- *
- * @author Personal
- */
 public class Alumno {
     
+    //Caracteristicas o atributos del alumno
+    int id;
+    String nombre;
+    String apellido;
+    
+    
+    //Creamos un metodo
+    public void mostrarNombre() {
+        
+        System.out.println("Hola, soy un alumno y se decir mi nombre"); 
+    }
+    
+    public void saberAprobado(double calificacion) {
+        
+        if(calificacion >= 61){
+            System.out.println("Aprobe la materia");
+        }else {
+            System.out.println("Reprobe la materia");
+        }
+    }
 }
