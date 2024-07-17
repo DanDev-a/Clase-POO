@@ -16,6 +16,7 @@ public class Alumno {
         System.out.println("Hola, soy un alumno y se decir mi nombre"); 
     }
     
+    //creamos otro metodo
     public void saberAprobado(double calificacion) {
         
         if(calificacion >= 61){
