@@ -1,13 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Herencia;
 
-/**
- *
- * @author Personal
- */
-public class Consultor {
+//Hacemos que Consultor herede los atributos de Persona al
+//igual que lo hicimos con empleado
+public class Consultor extends Persona {
     
 }
