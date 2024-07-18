@@ -23,6 +23,31 @@ public class Empleado extends Persona {
         this.cargo = cargo;
         this.sueldo = sueldo;
     }
+
+    //añadimos Getters and Setters solo de Empleado 
+    public int getNum_legajo() {
+        return num_legajo;
+    }
+
+    public void setNum_legajo(int num_legajo) {
+        this.num_legajo = num_legajo;
+    }
+
+    public String getCargo() {
+        return cargo;
+    }
+
+    public void setCargo(String cargo) {
+        this.cargo = cargo;
+    }
+
+    public Double getSueldo() {
+        return sueldo;
+    }
+
+    public void setSueldo(Double sueldo) {
+        this.sueldo = sueldo;
+    }
     
     
     
