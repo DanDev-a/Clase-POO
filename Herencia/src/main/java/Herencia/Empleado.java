@@ -1,13 +1,29 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Herencia;
 
-/**
- *
- * @author Personal
- */
-public class Empleado {
+//Para que EMPLEADO herede PERSONA añadimos la palabra EXTENDS
+//despues de EMPLEADO seguido de PERSONA o lo que queramos que herede
+public class Empleado extends Persona {
+    
+    int num_legajo;
+    String cargo;
+    Double sueldo;
+
+    //Constructor vacio
+    public Empleado() {
+    }
+
+    //Constructor con atributos propios y heredados de PERSONA 
+    //la palabra SUPER nos llama al constructor  
+    public Empleado(int num_legajo, String cargo, Double sueldo, int id, 
+            String dni, String nombre, String apellido, String domicilio, 
+            String telefono) {
+        super(id, dni, nombre, apellido, domicilio, telefono);
+        this.num_legajo = num_legajo;
+        this.cargo = cargo;
+        this.sueldo = sueldo;
+    }
+    
+    
     
 }
