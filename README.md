@@ -1,18 +1,23 @@
-## Getting Started
+## POO (Programacion Orientada a Objetos)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Atributos.- Se colocan al detallar un objeto
 
-## Folder Structure
+Constructores.- Esta el constructor vacio y el que usa parametros
 
-The workspace contains two folders by default, where:
+Herencia.- Dependen de una clase main la cual sus parametros se usan para 
+las demas clases dependientes la alabra reservada que se usa es "super"
+cuando se usan los constructores con parametros 
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Getters and Setters.- Se suelen usar despues de los constructores (Es una
+buena paractica) 
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Encapsulamiento.- Existe tres modificadores de acceso:
+    
+    Private: Privado El acceso solo es para clases dependientes de una clase main
+             tambien se usan en los atributos personales.
+    Public: Publico El acceso lo puede tener cualquiera.
+    Protected:  Protejido Es un punto medio entre privado y publico.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Abstraccion.- Se declara una clase abstracta cuando se pone abstract despues de un
+              modificador de acceso"public abstract class"
+              
