@@ -20,4 +20,6 @@ Encapsulamiento.- Existe tres modificadores de acceso:
 
 Abstraccion.- Se declara una clase abstracta cuando se pone abstract despues de un
               modificador de acceso"public abstract class"
+
+Interfaces.- Herencia multiple usamos la palabra reservada "interface" y "implements"
               
